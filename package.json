@@ -7,10 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "bin":"index.js",
+  "bin": "index.js",
   "license": "ISC",
   "dependencies": {
     "@fast-csv/format": "^4.3.1",
+    "anzip": "^0.2.0",
     "csv-parser": "^2.3.3"
   }
 }
