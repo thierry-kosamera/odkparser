@@ -40,7 +40,8 @@ async function main() {
             //console.log(data.asp)
             if (filterValue && data[filterField] != filterValue) return
 
-            let splitAsp = data.asp.split(/(\s+)/);
+            let splitAsp = data.asp.split(" ");
+            //console.log(data.asp,splitAsp)
             data['asp'] = splitAsp[0] ? splitAsp[0] : ""
             data['asp2'] = splitAsp[1] ? splitAsp[1] : ""
             data['asp3'] = splitAsp[2] ? splitAsp[2] : ""
