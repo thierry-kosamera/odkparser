@@ -2,7 +2,7 @@
 
 ## Goal: 
 
-In the context of the Burundi PID, make the submissions downloaded from ODK Central compatible with the Kobo format and ease the data processing pipeline. In this version, the asp field is splitted into 4 asp, asp2, asp3 and asp4 fields in order to be compatible with the existing arcGis scripts.
+This tool makes the submissions downloaded from ODK Central compatible with the Kobo format and ease the data processing pipeline. In this version, the asp field is splitted into 4 asp, asp2, asp3 and asp4 fields in order to be compatible with the existing arcGis scripts.
 
 A windows executable has been created from pkg:
 
